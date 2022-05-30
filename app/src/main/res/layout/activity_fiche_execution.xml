@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5B2B2"
+    tools:context=".FE_Class.Fiche_Execution">
+
+    <LinearLayout
+        android:id="@+id/layoutFE1"
+        android:layout_width="0dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/scrollViewFE1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_border"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/fiche_d_execution2"
+            android:textSize="22sp"  />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewFE1"
+        android:layout_width="0dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonConfirmFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutFE1"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/demandeTravailTextView"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_vertical"
+                    android:text="@string/responsable"
+                    android:textSize="24sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/responsableInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/responsableInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:paddingTop="10dp"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ficheFNFTextView"
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_vertical"
+                    android:text="@string/fiche_fnf"
+                    android:textSize="24sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ficheFNFInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    app:expandedHintEnabled="false"
+                    app:hintAnimationEnabled="true"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ficheFNFInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:paddingTop="10dp"
+                        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/interventionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Type d'intervention"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButtonIntervention1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="AERO"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/radioButtonIntervention3"
+                    app:layout_constraintStart_toEndOf="@+id/radioButtonIntervention2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonIntervention2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SIB"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/radioButtonIntervention1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonIntervention3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="SEM"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/radioButtonIntervention1"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/natureInterventionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Nature d'intervention"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonNatureIntervention1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Etude"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/radioButtonNatureIntervention2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="68dp"
+                    tools:layout_conversion_absoluteWidth="125dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonNatureIntervention2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Analyse"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/radioButtonNatureIntervention3"
+                    app:layout_constraintStart_toEndOf="@+id/radioButtonNatureIntervention1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="68dp"
+                    tools:layout_conversion_absoluteWidth="135dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonNatureIntervention3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="Intervention"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/radioButtonNatureIntervention2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="68dp"
+                    tools:layout_conversion_absoluteWidth="135dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/buttonAjoutTravail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#595858"
+                android:text="Ajouter un travail effectué"
+                android:textColor="@color/black"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonConsulterTravail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#AA5C5C"
+                android:text="Voir la liste des travaux effectués"
+                android:textColor="@color/black"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonAjouterMateriel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#595858"
+                android:text="Ajouter une pièce ou un matériel utilisé"
+                android:textColor="@color/black"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/buttonConsulterMateriel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#AA5C5C"
+                android:text="Voir la liste des pièces et matériaux utilisés"
+                android:textColor="@color/black"
+                app:strokeColor="@color/black"
+                app:strokeWidth="3dp"
+                tools:ignore="TextContrastCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/annexe1TextView"
+                    android:layout_width="149dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_vertical"
+                    android:text="Annexe 1 :"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/buttonAnnexe1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#595858"
+                    android:text="@string/ajouter_un_fichier"
+                    android:textColor="@color/black"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="3dp"
+                    tools:ignore="TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/annexe2TextView"
+                    android:layout_width="149dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_vertical"
+                    android:text="Annexe 2 :"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/buttonAnnexe2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#595858"
+                    android:text="@string/ajouter_un_fichier"
+                    android:textColor="@color/black"
+                    app:strokeColor="@color/black"
+                    app:strokeWidth="3dp"
+                    tools:ignore="TextContrastCheck"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonConfirmFE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6279F8"
+        android:text="@string/confirmer_et_envoyer2"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollViewFE1"
+        app:rippleColor="@color/teal_700"
+        app:strokeColor="@color/black"
+        app:strokeWidth="3dp"
+        tools:ignore="TextContrastCheck,TextContrastCheck"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

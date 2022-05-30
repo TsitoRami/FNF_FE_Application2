@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fnf_fe_application">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FNF_FE_Application.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".loginPage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".FE_Class.consulterTravaux"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FE_Class.consulterMateriel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FNF_Class.consulterEngins"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FE_Class.ajoutMateriel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FE_Class.ajoutTravail"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FE_Class.Fiche_Execution"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FNF_Class.consulterPersonnes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FNF_Class.ajoutEngins"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FNF_Class.ajoutPersonnes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Connect_After"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FNF_Class.FNF_Confirmation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FNF_Class.Etape_4"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FNF_Class.Etape_3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FNF_Class.Etape_2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FNF_Class.Etape_1"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

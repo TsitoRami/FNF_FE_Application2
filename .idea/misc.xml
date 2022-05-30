@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/drawable/textview_border.xml" value="0.2115" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13119143239625167" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_ajout_engin.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_ajout_engins.xml" value="0.2" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_ajout_materiel.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_ajout_personnes.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_ajout_travail.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_connect_after.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_consulter_engins.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_consulter_materiel.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_consulter_personnes.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_consulter_travaux.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_etape1.xml" value="0.22" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_etape2.xml" value="0.22" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_etape3.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_etape4.xml" value="0.2" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_fiche_execution.xml" value="0.22" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_fnf_confirmation.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_login_page.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/ajout_engins.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/ajout_personnes.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_engins.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_engins_item.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_materiel_item.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_personne_item.xml" value="0.33" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_personnes.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/consulter_travaux_item.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/content_scrolling.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/description.xml" value="0.25" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/empty_view.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/STG35/Documents/Docs/FNF_Sprint_2/FNF_FE_Application/app/src/main/res/layout/list_item.xml" value="0.19429347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
